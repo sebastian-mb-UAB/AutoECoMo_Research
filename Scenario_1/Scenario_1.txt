@@ -1,1 +1,1 @@
-
+The resulting dataset contains time-filtered energy profiles for four buildings over a user-defined interval. School_E and School_P include hourly timestamps with both PV generation (Generation_kWh) and electricity consumption (Consum_kWh), while Sports_B1 and Sports_B2 (Sports Buildings) include hourly timestamps with electricity consumption (Consum_kWh) only. Each output file preserves the original column structure and contains only the records within the selected time window.
