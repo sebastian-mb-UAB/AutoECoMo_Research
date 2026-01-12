@@ -1,1 +1,7 @@
+This dataset contains processed energy time series for Scenario 2 and School_E, aligned to an hourly resolution and standardized column naming.
 
+Houses (House_1, House_2, House_3): Each house originally provides 10-second measurements. The data are aggregated to hourly energy consumption, where the aggregated power signal P_agg (W) is integrated over time to obtain Consum_kWh. The resulting files contain two columns: Hora (hourly timestamp) and Consum_kWh (hourly electricity consumption in kWh).
+
+School_E: The original dataset includes Hour, Generation_kWh, and Consum_kWh. A user-defined time window within May 2023 is extracted, preserving the same three columns and temporal ordering.
+
+Overall, the outputs provide consistent, analysis-ready hourly profiles for consumption (and generation for School_E) over the selected period.
